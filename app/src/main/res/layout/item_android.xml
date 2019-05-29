@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_item"
+              android:orientation="vertical"
+              android:padding="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <TextView
+            android:textSize="18sp"
+            android:maxLines="2"
+            android:text="Google Jetpack 新组件 CameraX 使用，早用早享受，轻松开发 Camera 应用"
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    />
+    <LinearLayout
+            android:paddingTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:id="@+id/tv_author"
+                android:gravity="start"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="lijinshanmx"
+        />
+        <TextView
+                android:id="@+id/tv_time"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="2019-05-25T02:05:04.204Z"
+        />
+
+    </LinearLayout>
+</LinearLayout>

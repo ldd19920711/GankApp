@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/navigation_today"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="@string/title_today"/>
+
+    <item
+            android:id="@+id/navigation_history"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="@string/title_history"/>
+
+    <item
+            android:id="@+id/navigation_welfare"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="@string/title_welfare"/>
+
+    <item
+            android:id="@+id/navigation_video"
+            android:icon="@drawable/ic_slow_motion_video_black_24dp"
+            android:title="@string/title_video"/>
+
+
+</menu>
